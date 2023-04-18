@@ -3,7 +3,7 @@ import { SubmitKey } from "../store/app";
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized: "现在是未授权状态，请点击左下角设置按钮输入访问密码。",
+    Unauthorized: "现在是未授权状态，请联系我，18180760155，+v，问我要访问密码，拥有属于你独有的访问密码即可使用！",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -149,7 +149,23 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "您好\n" +
+        "染天AI私人助手GPT为你服务:\n" +
+        "1. 生活疑问解答，做作业题目\n" +
+        "\n" +
+        "2. 写论文、论文降重、写小说，写代码、写文案、写演讲稿，写述职报告，写工作总结\n" +
+        "\n" +
+        "3. 文案润色、翻译、写诗作词\n" +
+        "\n" +
+        "4. 扮演面试官、扮演书籍电影角色\n" +
+        "\n" +
+        "5. 陪聊倾诉、解忧、讲故事\n" +
+        "\n" +
+        "6. 生成会议纪要，生成表格\n" +
+        "\n" +
+        "输出字数不够时，就说“接着结尾处继续”。\n" +
+        "\n" +
+        "可以问我任何问题，请开始提问吧",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
